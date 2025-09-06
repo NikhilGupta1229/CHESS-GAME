@@ -5,6 +5,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
+  background-color: rgb(247, 239, 239);
 }
 div * {
   padding: 0;
@@ -23,7 +24,7 @@ div * {
   border-style: inset;
   text-align: center;
   padding: 5px 0 0 0;
-  background: #fff;
+  background: #f1ebeb;
   transition: 0.85s linear;
 }
 .turnhighlight {
@@ -61,16 +62,17 @@ div * {
   padding: 0 0 0 6px;
   cursor: pointer;
   z-index: 1;
+  background-color: white;
 }
 .gamecell:hover {
   color: #fff;
-  background: rgba(37, 88, 228, 0.712);
+  background: rgba(77, 87, 112, 0.712);
   z-index: 2;
   transform: translate(10px, -10px);
   animation: neonBlueText 1.5s ease-in-out infinite alternate;
 }
 .grey {
-  background: rgba(128, 128, 128, 0.801);
+  background: rgba(71, 63, 63, 0.801);
 }
 .green {
   /*background: green !important;*/
@@ -98,7 +100,7 @@ div * {
 }
 @keyframes neonOrangeText {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff9900,
+    text-shadow: 0 0 10px #b65e5e, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff9900,
       0 0 70px #ff9900, 0 0 80px #ff9900, 0 0 100px #ff9900, 0 0 150px #ff9900;
   }
   to {
@@ -128,14 +130,7 @@ div * {
       0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
   }
 }
-/*! * * * * * * * * * * * * * * * * * * * *\
- CSShake :: shake-little
- v1.5.0
- CSS classes to move your DOM
- (c) 2015 @elrumordelaluz
- http://elrumordelaluz.github.io/csshake/
- Licensed under MIT
-\* * * * * * * * * * * * * * * * * * * * */
+
 .shake-little {
   display: inline-block;
   transform-origin: center center;
